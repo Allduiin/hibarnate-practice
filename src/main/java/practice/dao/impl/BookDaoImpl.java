@@ -1,5 +1,6 @@
 package practice.dao.impl;
 
+import java.util.List;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 import practice.dao.BookDao;
@@ -9,7 +10,6 @@ import practice.model.Author;
 import practice.model.Book;
 import practice.model.Genre;
 import practice.util.HibernateUtil;
-import java.util.List;
 
 @Dao
 public class BookDaoImpl implements BookDao {

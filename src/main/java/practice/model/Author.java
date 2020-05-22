@@ -11,15 +11,15 @@ import javax.persistence.Table;
 public class Author {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long Id;
+    private Long id;
     private String name;
 
     public Long getId() {
-        return Id;
+        return id;
     }
 
     public void setId(Long id) {
-        Id = id;
+        this.id = id;
     }
 
     public String getName() {
@@ -33,7 +33,7 @@ public class Author {
     @Override
     public String toString() {
         return "Author{"
-                + "Id=" + Id
+                + "Id=" + id
                 + ", name='" + name + '\''
                 + '}';
     }

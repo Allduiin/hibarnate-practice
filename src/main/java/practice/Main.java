@@ -7,7 +7,6 @@ import practice.model.Genre;
 import practice.service.AuthorService;
 import practice.service.BookService;
 import practice.service.GenreService;
-import java.util.List;
 
 public class Main {
     private static Injector injector = Injector.getInstance("practice");

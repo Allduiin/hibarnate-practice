@@ -1,5 +1,6 @@
 package practice.service.impl;
 
+import java.util.List;
 import practice.dao.BookDao;
 import practice.lib.Inject;
 import practice.lib.Service;
@@ -7,7 +8,6 @@ import practice.model.Author;
 import practice.model.Book;
 import practice.model.Genre;
 import practice.service.BookService;
-import java.util.List;
 
 @Service
 public class BookServiceImpl implements BookService {
